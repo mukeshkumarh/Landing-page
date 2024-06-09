@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.nave{
+    height: 90px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.62);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3vw;
+    border-bottom: 2px solid #dadada;
+    font-family: Poppins;
+}
+
+.nave-part2{
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   font-weight: 3vw;
+   }
+.nave-part2 i{
+    font-weight: 800;
+    align-items: center;
+    display: none;
+}
+.contant{
+height: calc(100% - 100px);
+width: 100%;
+
+position: relative;
+display: flex;
+gap: 5px;
+
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+    padding: 5vw 4vw;
+   
+   }
+   .left h1{
+    font-family:Poppins;
+    font-size: 3vw;
+    line-height: 3.5vw;
+   }
+.left p{
+    font-size: 1vw;
+    margin-top: 5vw;
+}
+   .left h1 span{
+    color: lightseagreen;
+   }
+
+.right{
+    height: 100%;
+    width: 50%;
+        }
+
+.right img{
+    height: 35vw;
+    width: 45vw;
+    padding: 5vw 4vw;
+
+}
+
+@media (max-width:600px) {
+    .nave{
+      background-color: aqua;
+      color: white;  
+    }
+
+    .nave h2{
+        font-size: 6vw;
+    }
+
+    .nave-part2 h4{
+display: none;
+    }
+    .nave-part2 i{
+        display: block;
+        font-weight: 8vw;
+    }
+
+    .contant{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .left{
+        width: 100%;
+        height: 60%;
+    }
+   .right{
+    width: 100%;
+    height: 60%;
+   }
+   .left h1{
+    font-size: 8vw;
+    line-height: 8vw;
+   }
+   .left p{
+font-size:3vw ;
+line-height: 3vw;
+margin-top: 5vw;
+   }
+   .right img{
+    width: 95%;
+    height: 55%;
+   }
+}
+
